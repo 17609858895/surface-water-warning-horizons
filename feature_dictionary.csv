@@ -1,0 +1,109 @@
+﻿feature,description,group,source
+log_NH4N_0,"NH4-N (log1p, mg/L), current week t",Proximity / current level,history ≤ t
+log_NH4N_l1,"NH4-N (log1p, mg/L), lag 1 week",Short-term dynamics,history ≤ t
+log_NH4N_l2,"NH4-N (log1p, mg/L), lag 2 weeks",Short-term dynamics,history ≤ t
+log_NH4N_l4,"NH4-N (log1p, mg/L), lag 4 weeks",Short-term dynamics,history ≤ t
+log_NH4N_d1,"NH4-N (log1p, mg/L), change t−1→t",Short-term dynamics,history ≤ t
+log_NH4N_m4,"NH4-N (log1p, mg/L), 4-week mean",Short-term dynamics,history ≤ t
+log_NH4N_s4,"NH4-N (log1p, mg/L), 4-week s.d.",Short-term dynamics,history ≤ t
+log_NH4N_m12,"NH4-N (log1p, mg/L), 12-week mean",Short-term dynamics,history ≤ t
+log_NH4N_s12,"NH4-N (log1p, mg/L), 12-week s.d.",Short-term dynamics,history ≤ t
+log_NH4N_m52,"NH4-N (log1p, mg/L), 52-week mean",Chronic history,history ≤ t
+log_NH4N_s52,"NH4-N (log1p, mg/L), 52-week s.d.",Chronic history,history ≤ t
+log_NH4N_max12,"NH4-N (log1p, mg/L), 12-week maximum",Short-term dynamics,history ≤ t
+log_NH4N_min12,"NH4-N (log1p, mg/L), 12-week minimum",Short-term dynamics,history ≤ t
+DO_0,"DO (mg/L), current week t",Proximity / current level,history ≤ t
+DO_l1,"DO (mg/L), lag 1 week",Short-term dynamics,history ≤ t
+DO_l2,"DO (mg/L), lag 2 weeks",Short-term dynamics,history ≤ t
+DO_l4,"DO (mg/L), lag 4 weeks",Short-term dynamics,history ≤ t
+DO_d1,"DO (mg/L), change t−1→t",Short-term dynamics,history ≤ t
+DO_m4,"DO (mg/L), 4-week mean",Short-term dynamics,history ≤ t
+DO_s4,"DO (mg/L), 4-week s.d.",Short-term dynamics,history ≤ t
+DO_m12,"DO (mg/L), 12-week mean",Short-term dynamics,history ≤ t
+DO_s12,"DO (mg/L), 12-week s.d.",Short-term dynamics,history ≤ t
+DO_m52,"DO (mg/L), 52-week mean",Chronic history,history ≤ t
+DO_s52,"DO (mg/L), 52-week s.d.",Chronic history,history ≤ t
+DO_max12,"DO (mg/L), 12-week maximum",Short-term dynamics,history ≤ t
+DO_min12,"DO (mg/L), 12-week minimum",Short-term dynamics,history ≤ t
+log_CODMn_0,"CODMn (log1p, mg/L), current week t",Proximity / current level,history ≤ t
+log_CODMn_l1,"CODMn (log1p, mg/L), lag 1 week",Short-term dynamics,history ≤ t
+log_CODMn_l2,"CODMn (log1p, mg/L), lag 2 weeks",Short-term dynamics,history ≤ t
+log_CODMn_l4,"CODMn (log1p, mg/L), lag 4 weeks",Short-term dynamics,history ≤ t
+log_CODMn_d1,"CODMn (log1p, mg/L), change t−1→t",Short-term dynamics,history ≤ t
+log_CODMn_m4,"CODMn (log1p, mg/L), 4-week mean",Short-term dynamics,history ≤ t
+log_CODMn_s4,"CODMn (log1p, mg/L), 4-week s.d.",Short-term dynamics,history ≤ t
+log_CODMn_m12,"CODMn (log1p, mg/L), 12-week mean",Short-term dynamics,history ≤ t
+log_CODMn_s12,"CODMn (log1p, mg/L), 12-week s.d.",Short-term dynamics,history ≤ t
+log_CODMn_m52,"CODMn (log1p, mg/L), 52-week mean",Chronic history,history ≤ t
+log_CODMn_s52,"CODMn (log1p, mg/L), 52-week s.d.",Chronic history,history ≤ t
+log_CODMn_max12,"CODMn (log1p, mg/L), 12-week maximum",Short-term dynamics,history ≤ t
+log_CODMn_min12,"CODMn (log1p, mg/L), 12-week minimum",Short-term dynamics,history ≤ t
+pH_0,"pH, current week t",Proximity / current level,history ≤ t
+pH_l1,"pH, lag 1 week",Short-term dynamics,history ≤ t
+pH_l2,"pH, lag 2 weeks",Short-term dynamics,history ≤ t
+pH_l4,"pH, lag 4 weeks",Short-term dynamics,history ≤ t
+pH_d1,"pH, change t−1→t",Short-term dynamics,history ≤ t
+pH_m4,"pH, 4-week mean",Short-term dynamics,history ≤ t
+pH_s4,"pH, 4-week s.d.",Short-term dynamics,history ≤ t
+pH_m12,"pH, 12-week mean",Short-term dynamics,history ≤ t
+pH_s12,"pH, 12-week s.d.",Short-term dynamics,history ≤ t
+pH_m52,"pH, 52-week mean",Chronic history,history ≤ t
+pH_s52,"pH, 52-week s.d.",Chronic history,history ≤ t
+pH_max12,"pH, 12-week maximum",Short-term dynamics,history ≤ t
+pH_min12,"pH, 12-week minimum",Short-term dynamics,history ≤ t
+mNH4N,1.0 − NH4-N at t (margin to Class III limit),Proximity / current level,history ≤ t
+mDO,DO at t − 5.0 (margin to Class III limit),Proximity / current level,history ≤ t
+mCOD,6.0 − CODMn at t (margin to Class III limit),Proximity / current level,history ≤ t
+margin_min,minimum of the three relative margins at t,Proximity / current level,history ≤ t
+ex_rate52,"share of breach weeks among observed weeks, t−51…t",Chronic history,history ≤ t
+ex_rate_all,"share of breach weeks, all observed weeks up to t",Chronic history,history ≤ t
+ex_rate52_NH4N,"NH4-N breach share, t−51…t",Chronic history,history ≤ t
+ex_rate52_DO,"DO breach share, t−51…t",Chronic history,history ≤ t
+ex_rate52_COD,"CODMn breach share, t−51…t",Chronic history,history ≤ t
+wk_since_ex,weeks since the last breach week,Chronic history,history ≤ t
+wk_since_ok,weeks since the last compliant week,Chronic history,history ≤ t
+obs_frac12,"share of observed weeks, t−11…t",Structure,history ≤ t
+woy_sin,sin(2π·week-of-year/52.18),Season,history ≤ t
+woy_cos,cos(2π·week-of-year/52.18),Season,history ≤ t
+lon,station longitude (WGS84),Location,history ≤ t
+lat,station latitude (WGS84),Location,history ≤ t
+state,"compliance state at landmark t (0 compliant, 1 breach)",Structure,history ≤ t
+fc_NH4N_k1,cross-fitted 1-week-ahead NH4-N forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_NH4N_k1,forecast probability that NH4-N breaches its limit at week t+1,Concentration forecasts,as above
+fc_NH4N_k2,cross-fitted 2-week-ahead NH4-N forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_NH4N_k2,forecast probability that NH4-N breaches its limit at week t+2,Concentration forecasts,as above
+fc_NH4N_k4,cross-fitted 4-week-ahead NH4-N forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_NH4N_k4,forecast probability that NH4-N breaches its limit at week t+4,Concentration forecasts,as above
+fc_NH4N_k8,cross-fitted 8-week-ahead NH4-N forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_NH4N_k8,forecast probability that NH4-N breaches its limit at week t+8,Concentration forecasts,as above
+fc_NH4N_k12,cross-fitted 12-week-ahead NH4-N forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_NH4N_k12,forecast probability that NH4-N breaches its limit at week t+12,Concentration forecasts,as above
+fc_DO_k1,cross-fitted 1-week-ahead DO forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_DO_k1,forecast probability that DO breaches its limit at week t+1,Concentration forecasts,as above
+fc_DO_k2,cross-fitted 2-week-ahead DO forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_DO_k2,forecast probability that DO breaches its limit at week t+2,Concentration forecasts,as above
+fc_DO_k4,cross-fitted 4-week-ahead DO forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_DO_k4,forecast probability that DO breaches its limit at week t+4,Concentration forecasts,as above
+fc_DO_k8,cross-fitted 8-week-ahead DO forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_DO_k8,forecast probability that DO breaches its limit at week t+8,Concentration forecasts,as above
+fc_DO_k12,cross-fitted 12-week-ahead DO forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_DO_k12,forecast probability that DO breaches its limit at week t+12,Concentration forecasts,as above
+fc_CODMn_k1,cross-fitted 1-week-ahead CODMn forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_CODMn_k1,forecast probability that CODMn breaches its limit at week t+1,Concentration forecasts,as above
+fc_CODMn_k2,cross-fitted 2-week-ahead CODMn forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_CODMn_k2,forecast probability that CODMn breaches its limit at week t+2,Concentration forecasts,as above
+fc_CODMn_k4,cross-fitted 4-week-ahead CODMn forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_CODMn_k4,forecast probability that CODMn breaches its limit at week t+4,Concentration forecasts,as above
+fc_CODMn_k8,cross-fitted 8-week-ahead CODMn forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_CODMn_k8,forecast probability that CODMn breaches its limit at week t+8,Concentration forecasts,as above
+fc_CODMn_k12,cross-fitted 12-week-ahead CODMn forecast (LightGBM),Concentration forecasts,year-grouped OOF (training); full-training model (val/test)
+pexc_CODMn_k12,forecast probability that CODMn breaches its limit at week t+12,Concentration forecasts,as above
+pbreach_k1,forecast probability of any breach at week t+1 (indicators independent),Concentration forecasts,as above
+pbreach_k2,forecast probability of any breach at week t+2 (indicators independent),Concentration forecasts,as above
+pbreach_k4,forecast probability of any breach at week t+4 (indicators independent),Concentration forecasts,as above
+pbreach_k8,forecast probability of any breach at week t+8 (indicators independent),Concentration forecasts,as above
+pbreach_k12,forecast probability of any breach at week t+12 (indicators independent),Concentration forecasts,as above
+k,horizon index 1–12 (hazard learners),Structure,design
+cal_sin/cal_cos,season of target week t+k,Structure,design
+type,transition type A/B/R (3S-Boost),Structure,design
+j,elapsed weeks since the last observed breach for R_j (3S-Boost),Structure,design

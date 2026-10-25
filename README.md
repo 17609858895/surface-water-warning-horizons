@@ -40,7 +40,7 @@ The command without arguments lists stages and does not fit a model. Run the sta
 | sensitivity | Component attribution, missingness, sequence models, threshold and corrected individual-indicator analyses |
 | reconcile | Reconcile event initialization and common-horizon summary metrics |
 
-Shared model and evaluation functions are in `survlib.py`, `nnhazard.py`, `tristate.py` and `msboost.py`. `rerun_per_indicator_corrected.py` computes event and monitoring censoring separately for each indicator and is the retained individual-indicator analysis. `reconcile_evidence.py` reconstructs the onset cohort used for the reported 1,191/1,687 recurrence share.
+`feature_dictionary.csv` maps code feature names to scientific definitions, feature groups and information availability. It contains no monitoring measurements. Shared model and evaluation functions are in `survlib.py`, `nnhazard.py`, `tristate.py` and `msboost.py`. `rerun_per_indicator_corrected.py` computes event and monitoring censoring separately for each indicator and is the retained individual-indicator analysis. `reconcile_evidence.py` reconstructs the onset cohort used for the reported 1,191/1,687 recurrence share.
 
 ## Interpretation and reproducibility
 
