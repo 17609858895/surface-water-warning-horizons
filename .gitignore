@@ -1,0 +1,12 @@
+data/
+results/
+tables/
+__pycache__/
+*.pyc
+.venv/
+.env
+*.docx
+*.pdf
+*.pkl
+*.npy
+*.parquet
