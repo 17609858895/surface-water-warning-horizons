@@ -14,6 +14,9 @@ STAGES = {
     "spatial": ["13_spatial_rerun.py", "24_spatial_aggregates.py"],
     "sensitivity": ["15_shap.py", "17_masking.py", "17b_masking_oracle3s.py", "18_seq_models.py", "19_thresholds.py", "21_si_misc.py", "rerun_per_indicator_corrected.py"],
     "reconcile": ["reconcile_evidence.py"],
+    "checks": ["27a_null_variants.py", "27b_ar_null.py", "27c_calibration_review.py", "27d_onset_monthly.py"],
+    "pressures": ["28a_station_pressures.py", "28b_confirmation_rules.py", "28c_pressure_associations.py", "28d_pressure_sensitivity.py", "28e_pressure_confounding.py", "28f_season_pressure_profiles.py", "28g_pressure_robustness.py"],
+    "routing": ["30a_river_routing.py", "30b_station_revision_models.py", "30c_confirmation_common_window.py", "30d_indicator_completeness.py", "30e_conditional_ipcw.py", "30f_presence_block_sizes.py", "30g_dilution_forms.py"],
 }
 
 def main():

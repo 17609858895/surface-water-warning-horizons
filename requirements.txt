@@ -9,3 +9,8 @@ torch==2.13.0
 shap==0.52.0
 pyarrow==16.1.0
 statsmodels==0.14.2
+geopandas==1.2.0
+shapely==2.2.0
+pyogrio==0.13.0
+tifffile==2023.4.12
+h5py==3.11.0
